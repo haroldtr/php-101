@@ -49,6 +49,9 @@ include_once("./php/header.php");
   <li class="list-group-item">
     <a href="./semana04/condicionalesv2.php">Practicas Semana 04 - Condicionales 02</a>
   </li>
+  <li class="list-group-item">
+    <a href="./semana04/ciclosv1.php">Practicas Semana 04 - Ciclo For 01</a>
+  </li>
 </ul>
 
 

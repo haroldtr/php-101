@@ -6,6 +6,19 @@ include_once("./php/header.php");
     <li class="breadcrumb-item active" aria-current="page">Home</li>
   </ol>
 </nav>
+<?php
+$con_imagen = './image/logo.png';
+$sin_imagen = './image/user.svg';
+?>
+<?php
+if (isset($con_imagen)) { ?>
+  <img src="<?php echo ($con_imagen); ?>" class="img-thumbnail" alt="Foto de Perfil" width="200px" height="200px">
+<?php
+} else { ?>
+  <img src="<?php echo ($sin_imagen); ?>" class="img-thumbnail" alt="Sin Foto de Perfil" width="200px" height="200px">
+<?php
+}
+?>
 
 <hr>
 <h1>Clase PHP: UCATECI</h1>
